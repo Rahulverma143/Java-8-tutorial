@@ -13,7 +13,7 @@ public class FunctionExample01 implements Function<String, String> {
 		Function<String, String> f = new FunctionExample01();
 		System.out.println(f.apply("Rahul"));
 		
-		
+		// with lambda function 
 		System.out.println();
 		System.out.println("With lambda expression");
 		
