@@ -22,17 +22,17 @@
 //        System.out.println(p.test(15));  // true
 //    }
 //}
-
+//  =============================================================================
 //  With lambda Expression
 
-package predicate;
-
-import java.util.function.Predicate;
-
-public class TestPredicate {
-	public static void main(String[] args) {
-		Predicate<Integer> p = num -> num > 15;
-		System.out.println(p.test(5));   // false
-		System.out.println(p.test(20));   // true
-	}
-}
+//package predicate;
+//
+//import java.util.function.Predicate;
+//
+//public class TestPredicate {
+//	public static void main(String[] args) {
+//		Predicate<Integer> p = num -> num > 15;
+//		System.out.println(p.test(5));   // false
+//		System.out.println(p.test(20));   // true
+//	}
+//}

@@ -36,3 +36,30 @@ public class CheckEven {
 		System.out.println(p.test(n));
 	}
 }
+
+
+//===============================================================
+
+//package predicate;
+//
+//import java.util.function.Predicate;
+//
+//public class CheckEven {
+//    public static void main(String[] args) {
+//
+//        int n = 20;   // number to check
+//
+//        // Anonymous Inner Class implementation of Predicate
+//        Predicate<Integer> p = new Predicate<Integer>() {
+//
+//            @Override
+//            public boolean test(Integer num) {
+//                // checks whether the number is even
+//                return num % 2 == 0;
+//            }
+//        };
+//
+//        // Calls test() method and prints the result
+//        System.out.println(p.test(n));
+//    }
+//}
