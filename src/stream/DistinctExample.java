@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DistinctExample {
     public static void main(String[] args) {
-    	List<Integer> numbers = Arrays.asList(10, 20, 10, 30, 10, 30, 20);
+    	List<Integer> numbers = Arrays.asList(10, 20, 10, 30, 20, 10, 30, 20);
     	numbers.stream()
     	       .distinct()
     	       .forEach(System.out::println);
