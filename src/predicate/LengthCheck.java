@@ -24,7 +24,7 @@
 //
 //public class LengthCheck {
 //    public static void main(String[] args) {
-//
+//    Anonumous inner class
 //        Predicate<String> p = new Predicate<String>() {
 //            @Override
 //            public boolean test(String s) {

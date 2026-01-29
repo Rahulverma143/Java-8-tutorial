@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class StreamAllMethodsExample {
+public class StreamAllMethodsExample   {
     public static void main(String[] args) {
 
         // Existing collection
