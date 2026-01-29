@@ -9,6 +9,7 @@ public class CollectExample {
 
         Set<String> set = list.stream().collect(Collectors.toSet());
         System.out.println(set);
+        list.stream().map(n->n+n).forEach(s->System.out.println(s));
     }
 }
 
